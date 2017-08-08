@@ -1,0 +1,11 @@
+﻿HelloIntent Hi
+HelloIntent Hello
+TubeArrivalNearMeIntent When is the next tube arriving
+TubeArrivalNearMeIntent When is the next tube 
+TubeArrivalByName Find arrivals at {slot value|TubeName}
+BikePointsNearMeIntent How many Bikes near me
+BikePointsNearMeIntent How many Bikes available
+TubeDisruptionsIntent Get all tube disruptions
+AMAZON.CancelIntent Cancel
+AMAZON.StopIntent  Stop
+AMAZON.HelpIntent  Help

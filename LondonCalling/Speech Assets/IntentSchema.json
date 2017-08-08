@@ -1,0 +1,34 @@
+﻿{
+  "intents": [
+    {
+      "intent": "HelloIntent"
+    },
+    {
+      "intent": "TubeArrivalNearMeIntent"
+    },
+    {
+      "intent": "BikePointsNearMeIntent"
+    },
+    {
+      "intent": "TubeArrivalByName",
+      "slots": [
+        {
+          "name": "TubeName",
+          "type": "AMAZON.LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "TubeDisruptionsIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}
