@@ -17,8 +17,8 @@ namespace LondonCalling.Tests.Controllers
         //NaptanMetroStation,NaptanRailStation
         static HttpClient client = new HttpClient();
         private static string host = "https://api.tfl.gov.uk/";
-        private static string applicationId = "142e9a71";
-        private static string applicationKey = "1946cdc2d57eeadf7ed2dd3e10b8568a";
+        private static string applicationId = "";
+        private static string applicationKey = "";
         private static string amazonHost = @"https://api.amazonalexa.com";
         private static string amazonAddress = @"/v1/devices/{0}/settings/address/countryAndPostalCode";
         private static string amazonFullAddress = @"/v1/devices/{0}/settings/address";
