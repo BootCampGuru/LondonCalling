@@ -23,14 +23,14 @@ namespace LondonCalling.Controllers
         }
         static HttpClient client = new HttpClient();
         private static string host = "https://api.tfl.gov.uk/";
-        private static string applicationId = "142e9a71";
-        private static string applicationKey = "1946cdc2d57eeadf7ed2dd3e10b8568a";
+        private static string applicationId = "";
+        private static string applicationKey = "";
         private static string amazonHost = @"https://api.amazonalexa.com";
         private static string amazonAddress = @"/v1/devices/{0}/settings/address/countryAndPostalCode";
         private static string amazonFullAddress = @"/v1/devices/{0}/settings/address";
         private static string googleAPI = @"AIzaSyCypgNnsEhrdlb_DJRL_Ynybe4xetytGz4";
         private static string googleAddress = @"https://maps.googleapis.com/maps/api/geocode/json?address={0}&key={1}";
-        private  string amazonAppId = "amzn1.ask.skill.8f446a08-9800-4da5-8423-eca420517c2d";
+        private  string amazonAppId = "";
 
         #region TFL Calls
 
