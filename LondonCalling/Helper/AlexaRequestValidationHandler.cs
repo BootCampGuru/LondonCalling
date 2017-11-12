@@ -104,12 +104,10 @@ namespace LondonCalling.Helper
 
                 }
 
-                //if (!SpeechletRequestSignatureVerifier.VerifyCertificateUrl(signatureString))
-                //{
-                //    return new HttpResponseMessage(System.Net.HttpStatusCode.BadRequest);
-                //}
+                 byte[] bodyReq = await request.Content.ReadAsByteArrayAsync();  
 
-                if (SpeechletRequestSignatureVerifier.RetrieveAndVerifyCertificate(signatureCertChainUrl) == null)
+
+                if (!SpeechletRequestSignatureVerifier.VerifyRequestSignature(bodyReq, signature, signatureCertChainUrl))
                 {
                     return new HttpResponseMessage(System.Net.HttpStatusCode.BadRequest);
                 }
